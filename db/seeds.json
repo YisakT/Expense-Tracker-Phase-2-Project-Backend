@@ -1,41 +1,43 @@
 {
-  {
-    "expenses": [
-      {
-        "id": 1,
-        "description": "Groceries",
-        "amount": 50.0,
-        "classification": "Food",
-        "receipt": true
-      },
-      {
-        "id": 2,
-        "description": "Gas",
-        "amount": 30.0,
-        "classification": "Transportation",
-        "receipt": false
-      },
-      {
-        "id": 3,
-        "description": "Dinner",
-        "amount": 60.0,
-        "classification": "Food",
-        "receipt": true
-      },
-      {
-        "id": 4,
-        "description": "Movie Tickets",
-        "amount": 25.0,
-        "classification": "Entertainment",
-        "receipt": true
-      },
-      {
-        "id": 5,
-        "description": "Electric Bill",
-        "amount": 100.0,
-        "classification": "Utilities",
-        "receipt": false
-      }
-    ]
-  }
+  "expenses": [
+    {
+      "id": 1,
+      "description": "Groceries",
+      "amount": 50.0,
+      "classification": "Food",
+      "receiptAvailable": true
+    },
+    {
+      "id": 2,
+      "description": "Gas",
+      "amount": 30.0,
+      "classification": "Transportation",
+      "receiptAvailable": false
+    },
+    {
+      "id": 3,
+      "description": "Dinner",
+      "amount": 60.0,
+      "classification": "Food",
+      "receiptAvailable": true
+    },
+    {
+      "id": 4,
+      "description": "Movie Tickets",
+      "amount": 25.0,
+      "classification": "Entertainment",
+      "receiptAvailable": true
+    },
+    {
+      "id": 5,
+      "description": "Electric Bill",
+      "amount": 100.0,
+      "classification": "Utilities",
+      "receiptAvailable": false
+    }
+  ],
+  "totalExpenses": 265.0,
+  "remainingBudget": 1000.0
+}
+
   
