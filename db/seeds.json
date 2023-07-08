@@ -1,4 +1,10 @@
 {
+  "budget": [
+    {
+      "id": 1,
+      "total": 1000
+    }
+  ],
   "expenses": [
     {
       "id": 1,
@@ -36,8 +42,4 @@
       "receiptAvailable": false
     }
   ]
-  
-  
 }
-
-  

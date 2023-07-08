@@ -1,42 +1,52 @@
 {
+  "budget": [
+    {
+      "total": 6000,
+      "id": 1
+    }
+  ],
   "expenses": [
     {
-      "id": 1,
-      "description": "Groceries",
-      "amount": 50.0,
-      "classification": "Food",
-      "receiptAvailable": true
+      "description": "gas",
+      "amount": "50",
+      "classification": "work expense",
+      "receiptAvailable": false,
+      "id": 1
     },
     {
-      "id": 2,
-      "description": "Gas",
-      "amount": 30.0,
-      "classification": "Transportation",
-      "receiptAvailable": false
+      "description": "food",
+      "amount": "50",
+      "classification": "Groceries ",
+      "receiptAvailable": false,
+      "id": 2
     },
     {
-      "id": 3,
-      "description": "Dinner",
-      "amount": 60.0,
-      "classification": "Food",
-      "receiptAvailable": true
+      "description": "rent",
+      "amount": "1200",
+      "classification": "utility",
+      "receiptAvailable": true,
+      "id": 3
     },
     {
-      "id": 4,
-      "description": "Movie Tickets",
-      "amount": 25.0,
-      "classification": "Entertainment",
-      "receiptAvailable": true
-    },
-    {
-      "id": 5,
-      "description": "Electric Bill",
-      "amount": 100.0,
+      "description": "Phone bill",
+      "amount": "70",
       "classification": "Utilities",
-      "receiptAvailable": false
+      "receiptAvailable": true,
+      "id": 4
+    },
+    {
+      "description": "car payment",
+      "amount": "350",
+      "classification": "installment loans",
+      "receiptAvailable": true,
+      "id": 5
+    },
+    {
+      "description": "Water bill",
+      "amount": "50",
+      "classification": "Utilities",
+      "receiptAvailable": true,
+      "id": 6
     }
   ]
- 
 }
-
-  
